@@ -14,6 +14,10 @@
 		8AC367712C9435D800AD356A /* todoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC367702C9435D800AD356A /* todoAppTests.swift */; };
 		8AC3677B2C9435D800AD356A /* todoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC3677A2C9435D800AD356A /* todoAppUITests.swift */; };
 		8AC3677D2C9435D800AD356A /* todoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC3677C2C9435D800AD356A /* todoAppUITestsLaunchTests.swift */; };
+		8AC3678A2C943C5300AD356A /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC367892C943C5300AD356A /* AddTodoView.swift */; };
+		8AC3678C2C943D7E00AD356A /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC3678B2C943D7E00AD356A /* TodoDetailView.swift */; };
+		8AC3678E2C943EA800AD356A /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC3678D2C943EA800AD356A /* TodoItem.swift */; };
+		8AC367902C947C9100AD356A /* TodoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC3678F2C947C9100AD356A /* TodoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		8AC367762C9435D800AD356A /* todoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC3677A2C9435D800AD356A /* todoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoAppUITests.swift; sourceTree = "<group>"; };
 		8AC3677C2C9435D800AD356A /* todoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8AC367892C943C5300AD356A /* AddTodoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		8AC3678B2C943D7E00AD356A /* TodoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
+		8AC3678D2C943EA800AD356A /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		8AC3678F2C947C9100AD356A /* TodoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,12 @@
 		8AC3675E2C9435D700AD356A /* todoApp */ = {
 			isa = PBXGroup;
 			children = (
+				8AC3678D2C943EA800AD356A /* TodoItem.swift */,
+				8AC3678B2C943D7E00AD356A /* TodoDetailView.swift */,
+				8AC367892C943C5300AD356A /* AddTodoView.swift */,
 				8AC3675F2C9435D700AD356A /* todoAppApp.swift */,
 				8AC367612C9435D700AD356A /* ContentView.swift */,
+				8AC3678F2C947C9100AD356A /* TodoStore.swift */,
 				8AC367632C9435D800AD356A /* Assets.xcassets */,
 				8AC367652C9435D800AD356A /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC3678E2C943EA800AD356A /* TodoItem.swift in Sources */,
 				8AC367622C9435D700AD356A /* ContentView.swift in Sources */,
 				8AC367602C9435D700AD356A /* todoAppApp.swift in Sources */,
+				8AC3678A2C943C5300AD356A /* AddTodoView.swift in Sources */,
+				8AC3678C2C943D7E00AD356A /* TodoDetailView.swift in Sources */,
+				8AC367902C947C9100AD356A /* TodoStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"todoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8AK658Y8YQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -434,7 +451,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.todoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackelyj.todoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"todoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8AK658Y8YQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -462,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.todoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackelyj.todoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
